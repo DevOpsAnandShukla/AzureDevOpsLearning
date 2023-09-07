@@ -19,4 +19,4 @@ jobs:
           with :
             azure-devops-project-url: https://dev.azure.com/anandshuklanew919/LearningProject
             azure-pipeline-name: 'GithubWorkflow'
-            azure-devops-token: ${{secret.AZURE_DEVOPS_TOKEN}}
+            azure-devops-token: ${{secrets.AZURE_DEVOPS_TOKEN}}
