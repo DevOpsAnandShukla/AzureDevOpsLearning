@@ -1,5 +1,6 @@
 namespace AzureDevOpsLearning.Models
 {
+    //created for error response
     public class ErrorViewModel
     {
         public string? RequestId { get; set; }
