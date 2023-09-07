@@ -12,11 +12,11 @@ on:
 jobs:
     build:
        name: Azure Pipeline
-       runs-ob: ubuntu-latest
+       runs-on: ubuntu-latest
        steps:
         - name : Azure Pipeline Action
           uses : Azure/pipelines@v1
           with :
             azure-devops-project-url: https://dev.azure.com/anandshuklanew919/LearningProject
-            azure-pipeline-name: 'DevOpsAnandShukla.AzureDevOpsLearning'
+            azure-pipeline-name: 'GithubWorkflow'
             azure-devops-token: ${{secret.AZURE_DEVOPS_TOKEN}}
